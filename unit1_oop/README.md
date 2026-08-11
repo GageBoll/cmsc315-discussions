@@ -1,35 +1,13 @@
 # Unit 1 Discussion: Python OOP, Namespaces, and Copying
 
 ## Overview
+This assignment explored object-oriented programming concepts in Python, focusing on inheritance, namespaces, and object copying.
 
-This assignment explores object-oriented programming (OOP) concepts in Python, including inheritance, namespaces, and object copying.
+## Implementation Summary
+I created a `Vehicle` parent class that tracks a shared vehicle count and stores make, model, year, and a mutable features list. The `ElectricVehicle` child class inherits from `Vehicle`, adds battery capacity, range, and charge level, introduces a new `power_source` class variable, provides a `charge()` method, and overrides the `info()` method to include electric-specific details.
 
-## Learning Objectives
+Namespace behavior was demonstrated by creating two `ElectricVehicle` instances, accessing class variables both through the class and through instances, dynamically adding an `owner` attribute to only one instance, and printing both instance `__dict__` and selected class namespace entries.
 
-- Create parent and child classes
-- Use inheritance to extend functionality
-- Understand class and instance namespaces
-- Demonstrate shallow and deep copying
-- Apply object-oriented design principles
+Shallow and deep copying were shown using an `ElectricVehicle` that contains a nested mutable features list. After modifying the original object’s list and charge level, the shallow copy reflected the list change (shared reference) while the deep copy remained independent.
 
-## Requirements
-
-Complete all TODO sections in the source code:
-
-1. Create a parent class.
-2. Create a child class using inheritance.
-3. Demonstrate class and instance namespaces.
-4. Demonstrate shallow and deep copying.
-5. Create and test objects in `main()`.
-6. Add a student-created extension.
-
-## Discussion Board Reflection
-
-After completing the programming assignment, add this reflection to your initial discussion post in LEO.
-
-Your reflection should be approximately 150–200 words and address the following questions:
-
-1. What concepts or skills did you learn while completing this assignment?
-2. What challenges did you encounter, and how did you overcome them?
-3. Compare OOP to procedural programming.
-4. Discuss the benefits of maintainability and reusability and apply this managing overhead, practical application development, and future use.
+An extension was added: a class method `total_vehicles()` on `Vehicle` and an instance method `remaining_range()` on `ElectricVehicle` that estimates driving range from the current charge percentage.
