@@ -1,21 +1,18 @@
-# Unit 2 Discussion: Stacks and Queues
+# Unit 3 Discussion: Lists
 
 ## Overview
-This assignment explored two fundamental linear data structures:
-- Stack (LIFO)
-- Queue (FIFO)
+This assignment explored the list data structure, focusing on the differences between array-based and linked-list implementations and their performance characteristics.
 
 ## Learning Objectives
-- Implemented stack operations
-- Implemented queue operations
-- Understood LIFO and FIFO behavior
-- Created and tested edge cases
+- Implemented common list operations using Python’s built-in list
+- Understood when a linked list may outperform an array-based list
+- Created and tested edge cases 
+- Applied a list to a realistic application scenario
 
 ## What Was Completed
 All TODO sections were completed:
-1. Stack operations were implemented using a Python list (end of list = top of stack).
-2. Queue operations were implemented using `collections.deque` for efficient O(1) enqueue and dequeue.
-3. LIFO behavior was demonstrated with a browser-history scenario (pages pushed and popped).
-4. FIFO behavior was demonstrated with a print-spooler scenario (jobs enqueued and dequeued in arrival order).
-5. Edge cases were tested: empty pop/peek/dequeue/front, and single-item structures becoming empty after removal.
-6. Real-world scenarios (browser history and print queue) were created and run.
+1. List creation and basic operations were implemented.
+2. Edge cases were handled: empty list operations, invalid indices, and single-element lists becoming empty.
+3. A real-world scenario demonstrating ordered list usage was created and run.
+4. Explanatory comments were added throughout the code.
+5. The program was tested to verify correct LIFO/FIFO style ordering behavior where applicable and overall correctness.
