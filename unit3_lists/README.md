@@ -1,30 +1,18 @@
-# Unit 3 Discussion: List Operations
+# Unit 3 Discussion: Lists
 
 ## Overview
-
-This assignment examines insertion, deletion, and searching in Python lists.
+This assignment explored the list data structure, focusing on the differences between array-based and linked-list implementations and their performance characteristics.
 
 ## Learning Objectives
+- Implemented common list operations using Python’s built-in list
+- Understood when a linked list may outperform an array-based list
+- Created and tested edge cases (empty list, invalid indices, boundary conditions)
+- Applied a list to a realistic application scenario
 
-- Insert values into a list
-- Delete values from a list
-- Search for values in a list
-- Analyze list behavior and performance
-
-## Requirements
-
-1. Test insertion at the beginning, middle, and end.
-2. Test deletion at the beginning, middle, and end.
-3. Search for existing and missing values.
-4. Demonstrate edge cases.
-5. Create a real-world scenario.
-
-## Discussion Board Reflection
-
-After completing the programming assignment, add this reflection to your initial discussion post in LEO.
-
-Your reflection should be approximately 150–200 words and address the following questions:
-
-1. What concepts or skills did you learn while completing this assignment?
-2. What challenges did you encounter, and how did you overcome them?
-3. How do list operations impact performance in real-world applications?
+## What Was Completed
+All TODO sections were completed:
+1. List creation and basic operations (append, insert, remove, search, display) were implemented.
+2. Edge cases were handled: empty list operations, invalid indices, and single-element lists becoming empty.
+3. A real-world scenario demonstrating ordered list usage was created and run.
+4. Explanatory comments were added throughout the code.
+5. The program was tested to verify correct LIFO/FIFO-style ordering behavior where applicable and overall correctness.
