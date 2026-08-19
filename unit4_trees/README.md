@@ -5,21 +5,19 @@
 This assignment introduces Binary Search Trees (BSTs) and recursive tree operations.
 
 ## Learning Objectives
-
-- Build a BST
-- Insert values recursively
-- Search recursively
-- Perform in-order traversal
-- Understand BST organization
+- Built a Binary Search Tree from scratch using a Node class and a BST class
+- Inserted values recursively, placing smaller values in the left subtree and larger values in the right subtree
+- Searched for values recursively, discarding half of the remaining nodes at each step
+- Performed an in order traversal that automatically produced sorted output
+- Understood how BST organization enables efficient searching and why insertion order affects performance
 
 ## Requirements
-
-1. Build a BST.
-2. Insert multiple values.
-3. Demonstrate in-order traversal.
-4. Test searching.
-5. Demonstrate edge cases.
-6. Create a real-world BST example.
+1. Built a BST and initialized it with a root of None.
+2. Inserted multiple values so both left and right subtrees were populated.
+3. Demonstrated in order traversal and confirmed the results were sorted.
+4. Tested searching for both existing values and non existing values.
+5. Demonstrated edge cases including an empty tree, a single-node tree, and duplicate insertion.
+6. Created a real-world example by organizing values as employee ID numbers, showing how a BST can efficiently store and retrieve records.
 
 ## Discussion Board Reflection
 
